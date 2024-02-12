@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+:root{
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);    
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--DarkBlue);
+    min-height: 100vh;
+    font-family: Manrope;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--DarkGrayishBlue);
+    width:29rem;
+    padding: 2rem;
+    border-radius: 13px;
+    position: relative;
+}
+
+p{
+    color: var(--NeonGreen);
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: Manrope;
+    color: var(--LightCyan);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+button{
+    display: flex;
+    background-color: var(--NeonGreen);
+    padding: 1rem;
+    border-radius: 50%;
+    position:absolute;
+    bottom: -2rem;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.divider{
+    margin-bottom: 1.5rem;
+}
+
+button:hover{
+    box-shadow: 0 0 15px 25px hsla(150, 100%, 66%, 0.146);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    font-size: 11px; text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
